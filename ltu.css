@@ -1,0 +1,25 @@
+body {
+  font-family: Candara, Verdana, sans-serif
+}
+
+h1-h6 {
+ font-family: Arial, Helvetica, sans-serif
+}
+
+.tabell1 {
+  border: 1px solid black;
+  width: 20%;
+  padding: 5px;
+  background-color: #ffcccc;
+}
+
+.tabell2 {
+  border: 1px solid black;
+  width: 40%;
+  padding: 5px;
+  background-color: #ffcc99;
+}
+
+#source {
+  color: #009900;
+}
