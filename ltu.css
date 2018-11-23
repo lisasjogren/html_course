@@ -28,7 +28,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px;
   background-color: #ffcc99;
 }
-/* Här har jag skrivit färgen på denna text: "Källa: Luleå Tekniska Universitet http://www.ltu.se/" Eftersom det står <p id="source"> i html-dokumentet ska det vara en # och ingen punkt innan "source". */
+/* Här har jag skrivit färgen på denna text: "Källa: Luleå Tekniska Universitet http://www.ltu.se/" Eftersom det står <p id="source"> i html-dokumentet ska det vara en # och ingen punkt innan "source". Jag ändrade också position för texten och textstorlek. */
 #source {
   color: #009900;
+  margin-left: 600px;
+  font-size: 11px;
 }
