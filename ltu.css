@@ -2,11 +2,8 @@
 body {
   font-family: 'Candara', sans-serif;
   font-weight: lighter;
+  margin: 50px 400px 50px 50px;
   line-height: 20px;
-  padding-left: 50px;
-  padding-right: 400px;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 /* Nedan visas vilka typsnitt rubrikerna ska ha, och även att jag ville att bokstäverna skulle vara lite tunnare och ha mer mellanrum för att det ska se snyggare ut och vara mer lättläst. */
 h1, h2, h3, h4, h5, h6 {
