@@ -8,7 +8,7 @@
       <h1>Supportformulär</h1>
       <p>Här kan du skicka ett ärende till vår supportavdelning.</p>
 
-<form action="/action_page.php">
+<form action="http://staff.www.ltu.se/~susfah/HT18/parse_form.php">
   Ditt namn:<br>
   <input type="text" name="namn" value="">
   <br><br>
@@ -17,7 +17,7 @@
   <br><br>
 
   Prioritet:<br>
-    <select type="prioritet" name="prioritet" value="">
+    <select name="prioritet">
       <option value="1">Låg</option>
       <option value="2">Normal</option>
       <option value="3">Hög</option>
@@ -30,7 +30,7 @@
  <input type="radio" name="ort" value="lule"> Luleå<br><br>
 
  Kategori<br>
- <select type="kategori" name="kategori" value="">
+ <select name="kategori">
    <option value="fakt">Fakturering</option>
    <option value="net">Internet</option>
    <option value="tel">Telefoni</option>
@@ -47,6 +47,5 @@
   <input type="reset" name="reset" value="Reset">
 </form>
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
     </body>
 </html>
