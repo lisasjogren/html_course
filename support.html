@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Support</title>
+    </head>
+    <body>
+      <h1>Supportformulär</h1>
+      <p>Här kan du skicka ett ärende till vår supportavdelning.</p>
+
+<form action="/action_page.php">
+  Ditt namn:<br>
+  <input type="text" name="namn" value="">
+  <br><br>
+  Telefon:<br>
+  <input type="text" name="telefon" value="">
+  <br><br>
+
+  Prioritet:<br>
+    <select type="prioritet" name="prioritet" value="">
+      <option value="1">Låg</option>
+      <option value="2">Normal</option>
+      <option value="3">Hög</option>
+    </select><br><br>
+
+  Tilldela till ort:<br>
+  <input type="radio" name="ort" value="gbg" checked> Göteborg<br>
+ <input type="radio" name="ort" value="sthlm"> Stockholm<br>
+ <input type="radio" name="ort" value="ume"> Umeå<br>
+ <input type="radio" name="ort" value="lule"> Luleå<br><br>
+
+ Kategori<br>
+ <select type="kategori" name="kategori" value="">
+   <option value="fakt">Fakturering</option>
+   <option value="net">Internet</option>
+   <option value="tel">Telefoni</option>
+   <option value="epost">E-post</option>
+ </select><br><br>
+
+ Rubrik<br>
+ <input type="text" name="rubrik" value=""><br><br>
+
+ Beskrivning<br>
+  <textarea name="beskrivning" placeholder="" style="width: 300px; height:150px"></textarea><br><br>
+
+  <input type="submit" name="skicka" value="Submit">
+  <input type="reset" name="reset" value="Reset">
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    </body>
+</html>
