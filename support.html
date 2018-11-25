@@ -2,27 +2,32 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8">
+        <!-- Titeln är det som står högst upp på sidfliken. -->
         <title>Support</title>
     </head>
     <body>
+      <!-- h1 är den största rubriken som står högst upp. -->
       <h1>Supportformulär</h1>
+      <!-- <p> står för paragrapf, här skrivs brödtexten. -->
       <p>Här kan du skicka ett ärende till vår supportavdelning.</p>
 
+<!-- Under form action har jag skrivit ut vilken adress man ska komma till när man klickar på "submit" i formuläret. -->
 <form action="http://staff.www.ltu.se/~susfah/HT18/parse_form.php" method="post">
+<!-- Input type="text" betyder att det är en ruta som man kan skriva text i.  -->
   Ditt namn:<br>
   <input type="text" name="namn" value="">
   <br><br>
   Telefon:<br>
   <input type="text" name="telefon" value="">
   <br><br>
-
+<!-- Nedan betyder att man kan klicka på en knapp för att se och välja bland olika alternativ -->
   Prioritet:<br>
     <select name="prioritet">
       <option value="1">Låg</option>
       <option value="2">Normal</option>
       <option value="3">Hög</option>
     </select><br><br>
-
+<!-- <input type="radio" visar en lista med runda symboler framför namnen som man kan välja bland. -->
   Tilldela till ort:<br>
   <input type="radio" name="ort" value="gbg" checked> Göteborg<br>
  <input type="radio" name="ort" value="sthlm"> Stockholm<br>
@@ -40,9 +45,11 @@
  Rubrik<br>
  <input type="text" name="rubrik" value=""><br><br>
 
+<!-- <textarea name="beskrivning" skriver man när man vill få en större textruta. -->
  Beskrivning<br>
   <textarea name="beskrivning" placeholder="" style="width: 300px; height:150px"></textarea><br><br>
 
+<!-- <input type="submit" leder till form action-adressen ovan och "reset" gör att formuläret töms på information. -->
   <input type="submit" name="skicka" value="Submit">
   <input type="reset" name="reset" value="Reset">
 </form>
